@@ -6,7 +6,7 @@ const player2Element = document.querySelector(".player-2");
 const player1HealthElement = document.querySelector(".player-1-health-bar");
 const player2HealthElement = document.querySelector(".player-2-health-bar");
 
-const playBtn = document.querySelector(".play-btn");
+const playBtn = document.querySelectorAll(".play-btn");
 const resetBtn = document.querySelector(".reset-btn");
 
 let player1Health;
